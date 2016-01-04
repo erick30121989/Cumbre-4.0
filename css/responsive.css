@@ -1,0 +1,1049 @@
+/*-------------------------------------------------------------
+					ESTILOS RESPONSIVE
+-------------------------------------------------------------*/
+
+@media (min-width: 800px) {
+
+html{
+	font-size: 12px;
+}
+
+/*-------------------------------------------------------------
+						HEADER
+-------------------------------------------------------------*/
+
+#header{
+	box-shadow: 0px 5px 10px grey;
+}
+
+/*******************
+	LOGO
+********************/
+
+#logo_box{
+	padding: 1% 0%;
+	box-shadow: none;
+}
+
+#logo{
+	width: 210px;
+}
+
+.logo_img{
+	width: 51px;
+}
+
+/*******************
+	NAV
+********************/
+
+.icon-menu{
+	display:none;
+}
+
+#nav{
+	left: 0;
+	padding: 0.7% 0%;
+	box-shadow: none;
+}
+
+.nav_list{
+	/*background-color: goldenrod;*/	
+	width: 55%;
+	margin: auto;
+	padding: 0% 0%;
+}
+.nav_list li{
+	display: inline;
+	position: relative;
+	padding:0;
+	margin: 0% 0% 0% 10%;
+	border-bottom:none;
+	font-size: 1.5rem;
+}
+
+/*-------------------------------------------------------------
+						HOME
+-------------------------------------------------------------*/
+
+#home{
+	margin-bottom: 5%;
+}
+#background_img{
+	padding-top: 0%;
+	
+}
+
+.background_hidden{
+	width: 75%;
+}
+
+.home_parrafo{
+	padding: 4% 5%;
+	/*background-color: yellow;*/
+}
+
+.icon-circle-down{
+	
+}
+
+/*******************
+	clientes
+********************/
+#clientes{
+	
+}
+
+#clientes_list{
+		
+}
+
+#clientes_list li{
+   display: inline;
+	padding-left:8.5%;
+	width: 100%;
+	/* background-color: tomato; */
+}
+
+#clientes_list li img{
+	width: 10%;
+	padding: 6% 0% 6% 0%;
+	/*background-color: orange;*/
+}
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros, #nosotros_hover, #nosotros_box, #nosotros_box h3, #nosotros_box p, .img_hidden_nosotros{
+	padding:0;
+	margin: 0;
+}
+
+#nosotro_hover{
+	background-color: transparent;
+	transition:1s;
+}
+
+#nosotro_hover:hover{
+	background-color: rgba(0,0,0,0.7);
+	transition:1s;
+}
+
+#nosotros_box h3{	
+	width: 24%;
+	float: left;
+	margin-top: -37.5%;
+	z-index: 100;	
+	position: absolute;
+	padding: 12% 0% 12% 25%;
+	transition:1s;
+	color: transparent;
+}
+
+#nosotros_box p{
+	
+	width: 41%;
+	float: right;
+	z-index: 10;
+	position: relative;
+	margin-top: -37.5%;
+	padding: 4% 4% 4% 4%;
+	font-size: 1.5rem;
+	transition:1s;
+	color: transparent;
+}
+
+.vertical_line{	
+	display: block;
+	float: left;
+	margin-top: -37.5%;
+	margin-left: 50%;
+	z-index: 100;
+	position: absolute;
+	background-color: transparent;
+	transition:1s;	
+}
+
+.img_hidden_nosotros{
+	/*border:solid 1px yellow;*/
+	/*visibility: visible;*/
+	width: 90%;
+
+}
+
+/*******************
+	equipo
+********************/
+
+#equipo{
+	margin-top: 100px;
+}
+
+
+
+header{
+	/*display: none;*/
+}
+
+
+/*-------------------------------------------------------------
+						PROGRAMAS
+-------------------------------------------------------------*/
+
+#programas_tc,
+#programas_figc,
+#programas_tc h3,
+#programas_figc h3,
+#programas_tc h4,
+#programas_figc h4,
+#programas_tc h1,
+#programas_figc h1
+{
+	padding: 0;
+	position: relative;
+}
+
+#fondo_tc,
+#fondo_figc{
+	width: 50%;
+	float: left;
+}
+
+
+#programas_tc h1,
+#programas_figc h1{
+	padding: 40% 0% 4% 0%;
+	font-size: 2.5em;
+}
+
+#programas_tc h3,
+#programas_figc h3{
+	padding: 2% 0%;
+	font-size: 1.5em;	
+}
+#programas_tc h4,
+#programas_figc h4
+{
+	padding: 2% 0% 3% 0%;
+	font-size: 1.2em;
+}
+
+#programas_figc,
+#programas_tc{
+	padding-bottom: 10%;
+}
+
+.programas_arrow img,
+.programas_arrow2 img {
+	margin: 5% 0%;
+}
+
+.invisible{
+	color: transparent;
+}
+
+/*-------------------------------------------------------------
+					PANTILLA DE PROGRAMAS
+-------------------------------------------------------------*/
+
+#imagen_programas_gc h2,
+#imagen_programas_tt h2,
+#imagen_programas_ac h2,
+#imagen_programas_cg h2,
+#imagen_programas_gc2 h2,
+#imagen_programas_ic h2,
+#imagen_programas_vb h2{
+	padding: 17% 5% 25% 0%;
+	text-align: right;
+	font-weight: normal;
+	font-size: 2.5em;
+}
+
+#descripcion_programas{
+	/*background-color: red;*/
+	width: 50%;
+	margin: auto;		
+}
+
+.segundo_parrafo{
+	padding: 3% 3% 7% 3%;
+}
+#grafico_programas_box{
+	/*background-color: purple;*/
+	width: 50%;
+	margin: auto;
+}
+
+#grafico_programas img{
+	width: 100%;	
+}
+
+.titulo_beneficios{
+	font-size: 2em;
+	width: 55%;
+}
+
+.subtitulo_beneficios{
+	font-size: 1.4em;
+}
+
+.beneficios_list{
+	/*background-color: green;*/
+	width: 100%;
+}
+
+.beneficios_list li{
+	padding: 0;
+	margin: 5% 0% 5% 0%;
+	width: 24%;
+	display: inline-table;
+	/*background-color: teal;
+	opacity: 0.5;*/
+}
+
+.descripcion_beneficios{
+	padding: 0% 12%;
+}
+
+.extra_padding{
+	padding: 0% 18%;	
+}
+
+.beneficios_line{
+	border-left: solid 1px #eee;
+}
+
+/*-------------------------------------------------------------
+						CONTACTO
+-------------------------------------------------------------*/
+#contacto{
+	padding: 20% 0% 10% 0%; 
+}
+
+#contacto_box{
+	width: 60%;
+}
+
+.contacto_titulo{
+	font-size: 2em;
+	padding: 3% 0%;
+}
+
+.contacto_parrafo_superior{
+	padding: 3.5% 0%;
+}
+
+.contacto_subtitulo{
+	padding: 3% 0%;
+}
+
+.contacto_parrafo_inferior{
+	padding: 1% 0%;
+	line-height: 150%;
+}
+
+.contacto_mail{
+	padding: 3% 0%;
+}
+
+}
+/******************************************************************************************
+										1024
+******************************************************************************************/
+@media (min-width: 1024px) {
+
+html{
+	font-size: 14px;
+}
+
+.h3_2{
+	/*padding: 4% 0%;*/
+}
+
+#load_page img{
+	width: 3%;	
+	margin:20% 48%;
+}
+
+/*******************
+	LOGO
+********************/
+
+
+/*******************
+	NAV
+********************/
+
+.nav_list{
+	width: 50%;
+	border-bottom: solid 1px #E2E0E0;
+}
+
+/*-------------------------------------------------------------
+						HOME
+-------------------------------------------------------------*/
+.home_parrafo{
+	padding: 2% 5% 1% 10%;
+}
+#box_circle,#box_circle2{
+	display: inline-block;
+	background-color: sienna;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.icon-circle-down{	
+	position: absolute;			
+	font-size: 2rem;
+	-webkit-animation-name:box_arrow;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	animation-name:box_arrow;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes box_arrow{
+
+	0%		{margin-top: 15px;}
+	25%		{margin-top: 0px;}
+	50%		{margin-top: 15px;}
+	75%		{margin-top: 0px;}
+	100%	{margin-top: 15px;}
+
+}
+
+
+
+
+/*******************
+	casos de exito
+********************/
+#casos_exito{
+	
+}
+#casos_list{	
+	
+}
+
+#casos_list  li{
+	display: inline;
+	padding-left: 13.35%;
+	width: 100%;
+	background-color: purple;
+}
+
+#casos_list  li p{
+	background-color: yellow;
+	width: 33%;
+}
+
+#casos_list li img{
+	width: 15%;
+	padding:5% 0%;
+}
+
+/*******************
+	clientes
+********************/
+#clientes{
+	
+}
+
+#clientes_list{
+		
+}
+
+#clientes_list li{
+   display: inline;
+	padding-left:8.5%;
+	width: 100%;
+}
+
+#clientes_list li img{
+	width: 10%;
+	padding: 0% 0% 3% 0%;
+	/*background-color: purple;*/
+}
+
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros_box h3{
+	padding: 11.4% 0%  11.4% 30%;
+	width: 19%
+}
+
+#nosotros_box p{
+	padding: 8% 6% 6.5% 2.5%;
+	width: 41.5%;
+	/*background-color:teal;*/
+}
+
+.vertical_line img{	
+	height: 300px;
+}
+
+/*******************
+	equipo
+********************/
+
+#equipo h3{
+	padding: 0.7% 0%;	
+	/*background-color: orange;*/
+	font-size: 1.5rem;
+}
+
+#equipo_list{
+	width: 80%;
+	/*background-color: purple;*/
+	/*margin-bottom: 5%;*/
+}
+#equipo_list2{
+	width: 97%;
+	/*background-color: purple;*/
+}
+
+#equipo_list li
+{
+	/*background-color: olive;*/
+	width: 19%;
+	margin: 0% 7%;
+	padding: 0% 0%;
+	display: inline-table;
+
+}
+#equipo_list2 li{
+	/*background-color: tomato;*/
+	width: 15%;
+	margin: 2% 4.5%;
+	padding: 0% 0%;
+	display: inline-table;
+}
+
+#equipo_list li img,
+#equipo_list2 li img{
+	width: 100%;
+}
+
+/************************
+	DESCRIPCION DEL EQUIPO
+************************/
+#equipo_descripcion{
+	/*background-color: purple;*/
+}
+
+#equipo_descripcion h4{
+	/*background-color: tomato;*/
+	padding: 15% 0% 0%;
+}
+#foto_box{
+	/*background-color: cyan;*/
+	width: 35%;
+	display: inline-table;
+}
+
+
+#foto_div{
+	/*background-color: blue;*/
+	width: 50%;
+	margin: auto;
+	padding: 10% 0% 25% 0%;
+}
+
+#equipo_descripcion img{	
+	padding: 0;
+	border:solid 2px #A11E12;
+}
+
+#descripcion_perfil{
+	/*background-color: orange;*/
+	width: 64.2%;
+	display: inline-table;
+	padding: 2% 0%;
+	border-left:solid 1px #A11E12;
+
+}
+
+#descripcion_perfil h5{
+	/*background-color: blue;*/
+	text-align: left;
+	padding: 0;
+	padding: 2% 10% 2% 7%;
+}
+#descripcion_perfil p{
+	
+	/*background-color: yellow;*/
+	padding: 0;
+	padding: 0% 18% 5% 7%;
+	text-align: justify;
+}
+
+.back{
+	padding: 2% 0%;	
+}
+
+
+
+}
+/******************************************************************************************
+										1366
+******************************************************************************************/
+@media (min-width: 1200px) {
+/*-------------------------------------------------------------
+						HEADER
+-------------------------------------------------------------*/
+
+/*******************
+	NAV
+********************/
+.nav_list li{
+	margin: 0% 0% 0% 12%;
+}
+
+/*-------------------------------------------------------------
+						HOME
+-------------------------------------------------------------*/
+
+.background_hidden{
+	width: 60%;
+}
+
+.home_parrafo{
+	padding: 2% 17% 0% 17%;
+}
+
+
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros_box h3{
+	padding: 10% 0%  10% 33%;
+	width: 19%;
+	margin-top: -30%;
+	/*background-color: teal;*/
+}
+
+#nosotros_box p{
+	padding: 7% 3% 7% 5%;
+	width: 44%;
+	margin-top: -30%;
+	/*background-color: olive;*/
+}
+
+.vertical_line {		
+	margin-top: -30%;
+}
+
+.img_hidden_nosotros{
+	width: 70%;
+}
+
+/*******************
+	equipo
+********************/
+#equipo_list{
+	width: 72%;
+	
+}
+
+#equipo_list2{
+	width: 80%;
+	/*background-color: purple;*/
+}
+
+
+#equipo_list li{
+	
+	width: 16%;
+	margin: 2% 8.5%;
+
+}
+#equipo_list2 li{
+	
+	margin: 2% 4.75%;
+	padding: 0% 0%;
+
+}
+
+
+#equipo_list li h4,
+#equipo_list2 li h4{	
+	font-style: italic;
+	font-weight: bold;
+	font-family: myriadr;
+}
+
+#equipo_list li h5,
+#equipo_list2 li h5{
+	font-size: 1rem;
+}
+
+/************************
+	DESCRIPCION DEL EQUIPO
+************************/
+#equipo_descripcion h4{
+	font-size: 2em;
+	/*background-color: orange;*/
+}
+
+#descripcion_perfil h5{
+	font-size: 2em;
+	padding: 2% 10% 2% 7%;
+}
+#descripcion_perfil p{
+	font-size: 1.3em;
+	padding: 5% 18% 0% 7%;
+	/*background-color: yellow;*/
+}
+
+#descripcion_perfil{
+	padding: 2% 0% 5% 0%;
+
+}
+
+/*-------------------------------------------------------------
+						PROGRAMAS
+-------------------------------------------------------------*/
+
+#programas_tc h1,
+#programas_figc h1{
+	padding: 30% 0% 5% 0%;
+	font-size: 2.5em;
+}
+
+.programas_arrow img,
+.programas_arrow2 img {
+	margin: 4% 0%;
+}
+
+#programas_tc h4,
+#programas_figc h4
+{
+	transition:1s;
+	color: transparent;	
+}
+
+/*-------------------------------------------------------------
+					PANTILLA DE PROGRAMAS
+-------------------------------------------------------------*/
+#imagen_programas_gc h2,
+#imagen_programas_tt h2,
+#imagen_programas_ac h2,
+#imagen_programas_cg h2,
+#imagen_programas_gc2 h2,
+#imagen_programas_ic h2,
+#imagen_programas_vb h2{
+	padding: 15% 3% 20% 0%;
+}
+
+#descripcion_programas{
+	width: 40%;
+}
+
+/*-------------------------------------------------------------
+						CONTACTO
+-------------------------------------------------------------*/
+
+#contacto{
+	padding: 14% 0% 10% 0%;
+}
+.contacto_titulo{	
+	padding: 8% 0% 2% 0%;
+}
+
+#contacto_box{
+	width: 50%;
+}
+
+/*-------------------------------------------------------------
+						FOOTER
+-------------------------------------------------------------*/
+
+.telefono_icon{
+	display: block;	
+}
+
+.follow_us{
+	float: right;	
+	width: 200px;
+	margin-top: -15px;
+	/*background-color: yellow;*/
+}
+
+.copy_right1{
+	width: 300px;
+	margin-top: -25px;
+	/*background-color: red;*/
+}
+.copy_right img{
+	width: 27px;
+	margin-top:10px;
+	margin-left: 60px;
+
+}
+.copy_right a{
+	margin-top: -20px;
+	position: absolute;
+}
+
+.copy_right{	
+	width: 200px;
+	margin: auto;
+	margin-top: 15px;
+	/*background-color: blue;*/
+}
+
+
+}
+
+/******************************************************************************************
+										1600
+******************************************************************************************/
+
+@media (min-width: 1600px) {
+/*-------------------------------------------------------------
+						HEADER
+-------------------------------------------------------------*/
+
+/*******************
+	NAV
+********************/
+.nav_list li{
+	margin: 0% 0% 0% 13%;
+}
+
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros_box h3{
+	padding: 10% 7%  10% 37%;
+	width: 2.2%;
+	margin-top: -30%;
+	font-size: 3.5rem;
+	/*background-color: yellow;*/
+}
+
+#nosotros_box p{
+	padding: 9% 15% 9% 1%;
+	width: 33%;
+	margin-top: -30%;	
+}
+
+.vertical_line {		
+	margin-top: -30%;
+}
+
+.vertical_line img{
+	height: 420px;
+	width: 1px;
+}
+
+.img_hidden_nosotros{
+	width: 70%;
+}
+
+/*******************
+	equipo
+********************/
+#equipo_list li h4{
+	font-size: 1.5rem;
+}
+
+
+/************************
+	DESCRIPCION DEL EQUIPO
+************************/
+#equipo_descripcion h4{
+	font-size: 2.5em;
+}
+
+#descripcion_perfil p{
+	font-size: 1.7em;
+}
+
+.back{
+	font-size: 2em;
+}
+
+
+}
+
+/******************************************************************************************
+										1920
+******************************************************************************************/
+
+@media (min-width: 1920px) {
+
+/*-------------------------------------------------------------
+						HEADER
+-------------------------------------------------------------*/
+
+/*******************
+	NAV
+********************/
+.nav_list li{
+	margin: 0% 7% 0% 9%;
+}
+.nav_list{
+	width: 45%;
+	margin: auto;
+	padding: 0% 0%;
+}
+
+
+
+/*-------------------------------------------------------------
+						HOME
+-------------------------------------------------------------*/
+
+.home_parrafo{
+	padding: 2% 17% 0% 17%;
+}
+
+.background_hidden{
+	width: 65%;
+}
+
+.icon-circle-down{
+	font-size: 2.5rem;
+}
+
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros_box h3{
+	padding: 10% 7%  10% 39%;
+	width: 2.5%;
+	margin-top: -30%;
+	font-size: 3.5rem;
+	/*background-color: yellow;*/
+}
+
+#nosotros_box p{
+	padding: 9% 15% 9% 1%;
+	width: 33%;
+	margin-top: -30%;	
+}
+
+.vertical_line {		
+	margin-top: -30%;
+}
+
+.vertical_line img{
+	height: 420px;
+	width: 1px;
+}
+
+.img_hidden_nosotros{
+	width: 70%;
+}
+
+
+/************************
+	DESCRIPCION DEL EQUIPO
+************************/
+
+#equipo_descripcion h4{
+	font-size: 2.5em;
+}
+#descripcion_perfil h5{
+	font-size: 2.2em;
+}
+
+#descripcion_perfil p{
+	font-size: 2em;
+}
+
+
+/*-------------------------------------------------------------
+						PROGRAMAS
+-------------------------------------------------------------*/
+
+#programas_tc h1,
+#programas_figc h1{	
+	font-size: 3em;
+}
+
+#programas_tc h3,
+#programas_figc h3{	
+	font-size: 2em;	
+}
+#programas_tc h4,
+#programas_figc h4{	
+	font-size: 1.5em;
+}
+
+
+/*-------------------------------------------------------------
+					PANTILLA DE PROGRAMAS
+-------------------------------------------------------------*/
+#imagen_programas_gc h2,
+#imagen_programas_tt h2,
+#imagen_programas_ac h2,
+#imagen_programas_cg h2,
+#imagen_programas_gc2 h2,
+#imagen_programas_ic h2,
+#imagen_programas_vb h2{
+	padding: 12% 3% 23% 0%;
+	font-size: 3.5em;
+}
+
+#descripcion_programas{
+	/*background-color: red;*/
+	width: 30%;			
+}
+
+.titulo{
+	padding: 3% 0%;
+}
+
+.primer_parrafo{
+	font-size: 1.2em;
+}
+
+.segundo_parrafo{
+	font-size: 1.2em;
+	padding: 0% 3% 4% 3%;
+}
+
+#grafico_programas_box{
+	/*background-color: purple;*/
+	/*width: 70%;*/
+}
+
+.titulo_beneficios{
+	width: 30%;
+}
+
+
+.descripcion_beneficios{
+	padding: 0% 25%;
+}
+
+.extra_padding{
+	padding: 0% 28%;	
+}
+
+.beneficios_line{
+	border-left: solid 1px #eee;
+}
+
+.numeros_grandes{
+	font-size: 10em;		
+}
+
+/*-------------------------------------------------------------
+						CONTACTO
+-------------------------------------------------------------*/
+#contacto{
+	font-size: 1.3em;
+}
+
+
+.contacto_parrafo_superior{
+	/*font-size: 1.3em;*/
+	line-height: 150%;
+}
+
+}

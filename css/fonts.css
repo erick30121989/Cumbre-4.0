@@ -1,0 +1,35 @@
+/***********************************************************/
+/*****************Fuentes de la Página**********************/
+/***********************************************************/
+
+
+@font-face
+{
+	font-family:gothic;
+	/*src:url(Gotham/Gotham-Light.otf)*/	
+	src:url(../fonts/GOTHIC.TTF);
+}
+
+
+@font-face
+{
+	font-family:lucid;
+	/*src:url(Gotham/Gotham-Light.otf)*/	
+	src:url(../fonts/LCALLIG.TTF);
+}
+
+
+@font-face
+{
+	font-family:myriadl;
+	/*src:url(Gotham/Gotham-Light.otf)*/	
+	src:url(../fonts/MyriadPro-Light.otf);
+}
+
+
+@font-face
+{
+	font-family:myriadr;
+	/*src:url(Gotham/Gotham-Light.otf)*/	
+	src:url(../fonts/MyriadPro-Regular.otf);
+}

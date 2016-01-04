@@ -1,0 +1,673 @@
+/*-------------------------------------------------------------
+						ESTILOS
+-------------------------------------------------------------*/
+
+html{
+	font-size: 12px;
+	font-family:myriadl;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	display: n
+}
+
+a:link{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.h3{
+	text-align: center;
+	font-size: 2.2rem;
+	font-style: italic;
+	color: #5F5F60;
+}
+
+.h3_2{
+	/*background-color: tomato;*/
+	padding: 4% 0%;
+}
+
+#container{
+	visibility: hidden;
+	transition:2s;
+}
+
+#load_page img{
+	width: 20%;	
+	margin:30% 40%;
+}
+
+/*-------------------------------------------------------------
+						HEADER
+-------------------------------------------------------------*/
+
+#header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+    z-index: 1000; 
+    /*background-color: orange;*/
+    height: auto;    
+}
+
+#header{
+		
+}
+
+/*******************
+	LOGO
+********************/
+
+#logo_box{	
+	background-color: white;
+	/*background-color: orange;*/
+	padding: 2% 0px;
+	box-shadow: 0px 5px 10px grey;
+}
+
+#logo{
+	/*background-color: teal;*/
+	width: 190px;
+	margin: auto;	
+}
+
+.logo_img{
+	width: 45px;
+	float: left;
+}
+
+.logo_title{
+	float: left;
+	font-size: 2.7rem;
+	margin-left: 6px;
+	color: #4F4F4E;	
+}
+
+.logo_subtitle{
+	font-size: 1rem;
+	color: #4F4F4E;	
+}
+
+/*******************
+	NAV
+********************/
+
+#nav{
+	background-color: tomato;
+	background-color: white;
+	position: relative;
+	left: -100%;
+	box-shadow: 0px 5px 10px grey;
+}
+.nav_list{
+	padding: 1.2%;
+}
+.nav_list li{
+	/*background-color: grey;*/
+	padding: 4% 3%;
+	margin: 1px;
+	border-bottom: solid 1px grey;
+	font-size: 1.2rem;
+	color: #4F4F4E;
+} 
+
+
+
+/*-------------------------------------------------------------
+						HOME
+-------------------------------------------------------------*/
+
+#home{
+	width: 100%;
+	/*background-color: green;*/
+}
+
+#background_img{
+	width: 100%;
+	background: url(../img/fondo3.jpg);
+	background-size: cover;
+	padding-top: 18%;
+	position: relative;
+	transition:2s;
+}
+
+.background_hidden{
+	width: 100%;
+	visibility: hidden;
+}
+
+.home_parrafo{
+	font-size: 1.5rem;
+	padding: 10% 4%;
+	text-align: center;
+}
+
+#box_circle,#box_circle2{
+	display: none;
+}
+
+.home_parrafo em{
+	font-weight: bolder;
+}
+
+/*******************
+	casos de exito
+********************/
+
+
+#casos_exito{
+	/*background-color: purple;*/
+	background: -moz-repeating-linear-gradient(135deg, white, white 4px, #ccc 0.5px, white 7px);
+	background: -webkit-repeating-linear-gradient(135deg, white, white 4px, #ccc 0.5px, white 6px);
+}
+
+#casos_list {
+	width: 100%;
+
+}
+
+#casos_list  li{
+	/*background-color: blue;*/
+	margin:auto;
+	width: 60%;
+}
+
+#casos_list li img{	
+	width: 100%;
+	padding: 10% 0%;
+}
+
+/*******************
+	clientes
+********************/
+
+#clientes{
+	background-color: #ECECEC;
+
+}
+
+#clientes_list{
+	width: 100%;	
+}
+
+#clientes_list li{
+	width: 40%;
+	/* background-color: olive; */
+	margin: auto;
+}
+
+#clientes_list li img{
+	width: 100%;
+	padding: 14% 0%;
+}
+
+/*-------------------------------------------------------------
+						NOSOTROS
+-------------------------------------------------------------*/
+#nosotros{
+	/*background-color: orange;	*/
+	background: url(../img/fondo_nosotros.jpg);
+	background-size: cover;
+	/*padding-top: 17%;*/
+}
+
+.img_hidden_nosotros{
+	padding-top: 17%;
+}
+
+#nosotro_hover{
+	/*background: url(../img/fondo_nosotros.jpg);
+	background-size: cover;*/
+	background-color: rgba(0,0,0,0.5);	
+	position: relative;
+}
+
+
+#nosotros_box h3{
+	/*background-color: orange;*/
+	color: white;	
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: -50%;
+	margin-bottom: 7%;
+}
+
+#nosotros_box p{
+	/*background-color: purple;*/
+	color: white;
+	text-align: justify;
+	padding: 9% 5%;
+	font-size: 1.7rem;
+}
+
+.vertical_line{
+	display: none;
+}
+
+/*******************
+	equipo
+********************/
+
+#equipo{
+	/*background-color: green;*/
+}
+
+#equipo h3{
+	padding: 8% 0%;
+}
+
+#equipo_list,
+#equipo_list2{
+	/*background-color: blue;*/
+	width: 60%;
+	margin: auto;
+}
+
+#equipo_list li,
+#equipo_list2 li{
+	padding: 10% 0%;
+	
+}
+
+#equipo_list li img,
+#equipo_list2 li img{
+	width: 100%;
+	border: solid 1px #A11E12;
+	box-shadow: 6px 5px 10px grey;
+}
+
+#equipo_list li h4,
+#equipo_list2 li h4{
+	color: #A11E12;
+	text-align: center;	
+	margin-top: 5%;
+
+}
+
+#equipo_list li h5,
+#equipo_list2 li h5{
+	color: #626262;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+
+/*******************
+	DESCRIPCION DEL EQUIPO
+********************/
+
+#equipo h3{
+	/*background-color: tomato;*/
+}
+
+#equipo_descripcion{
+	/*background-color: purple;*/
+}
+
+#equipo_descripcion h4{
+	text-align: center;
+	font-size: 2rem;
+	color: #A11E12;
+	padding: 3% 0%;
+	font-family: myriadr;
+	font-style: italic;
+}
+
+#equipo_descripcion h5{
+	font-size: 2rem;
+}
+
+#equipo_descripcion img{
+	width: 100%;
+	margin:auto;
+	padding: 4% 0%;
+	box-shadow: 6px 5px 10px grey;
+}
+
+#foto_box{
+	/*background-color: olive;*/
+	width: 60%;
+	margin: auto;
+}
+
+#descripcion_perfil{
+
+}
+
+#descripcion_perfil h5,
+#descripcion_perfil p{
+	text-align: center;
+	text-align: justify;
+	padding: 2% 2%;
+}
+
+#descripcion_perfil h5{
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #A11E12;
+	/*background-color: cyan;*/
+	padding: 4% 3%;
+	text-align: center;
+}
+
+#descripcion_perfil p{
+	/*background-color: teal;*/
+	text-align: justify;
+	padding: 3% 5% 6% 5%;
+	font-size: 1.2rem;
+}
+
+.back{
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 5% 0%;	
+}
+
+.back a{
+	color: #424241;
+}
+
+#equipo{
+	/*background-color: purple;*/
+}
+
+
+/*-------------------------------------------------------------
+					PROGRAMAS
+-------------------------------------------------------------*/
+
+
+#programas{
+	text-align: center;
+}
+
+#fondo_tc{
+	background: url(../img/fondo_p_2.jpg);
+	background-size: cover;
+
+}
+
+#fondo_figc{
+	background: url(../img/fondo_p_1.jpg);
+	background-size: cover;
+
+}
+#programas_tc{
+	background-color: rgba(48,61,114,0.7);
+	padding:30% 0% 0% 0%;	
+	color: white;	
+}
+
+#programas_figc{
+	background-color: rgba(212,193,146,0.75);	
+}
+
+#programas_tc a{
+	color: white;	
+	margin-bottom: 10px;
+}
+
+#programas_figc a{
+	color: black;
+}
+
+#programas_tc h1,
+#programas_figc h1{
+	padding: 5% 0%;	
+}
+
+#programas_tc h3,
+#programas_figc h3
+{
+	padding: 3% 0%;	
+}
+
+#programas_tc h4,
+#programas_figc h4
+{
+	padding: 8% 0% 10% 0%;	
+	/*margin: 1px;*/
+	/*background-color: orange;*/
+}
+
+
+.invisible{
+	color: transparent;
+}
+
+
+
+
+/*-------------------------------------------------------------
+					PANTILLA DE PROGRAMAS
+-------------------------------------------------------------*/
+
+
+#plantilla_programas{
+	/*background-color: orange;*/
+
+}
+
+#imagen_programas_gc
+{	
+	background: url(../img/programa_gc.jpg);
+	background-size:cover;
+}
+
+#imagen_programas_tt
+{	
+	background: url(../img/programa_tt.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_ac
+{	
+	background: url(../img/programa_ac.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_cg
+{	
+	background: url(../img/programa_cg.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_gc2
+{	
+	background: url(../img/programa_gc2.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_ic
+{	
+	background: url(../img/programa_ic.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_vb
+{	
+	background: url(../img/programa_vb.jpg);
+	background-size:cover;		
+}
+
+#imagen_programas_gc h2,
+#imagen_programas_tt h2,
+#imagen_programas_ac h2,
+#imagen_programas_cg h2,
+#imagen_programas_gc2 h2,
+#imagen_programas_ic h2,
+#imagen_programas_vb h2{
+	
+	padding: 50% 0% 35% 0%;
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+	font-size: 2em;
+}
+
+#grafico_programas_box{
+	width: 90%;
+	margin: auto;
+}
+
+#descripcion_programas{
+	/*background-color: red;*/
+	text-align: justify;
+	font-size: 1.1em;	
+}
+
+.titulo{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+	padding: 5% 0%;
+}
+
+.primer_parrafo{
+	padding: 2% 3%;	
+	font-weight: bolder;
+}
+
+.segundo_parrafo{
+	padding: 3% 3%;	
+}
+#grafico_programas{
+background: -moz-repeating-linear-gradient(155deg, #eee, #eee 1px, white 0.5px, white 10px);
+background: -webkit-repeating-linear-gradient(155deg, #eee, #eee 1px, white 0.5px, white 10px);
+padding: 3% 0%;
+}
+
+#grafico_programas img{
+	width: 100%;
+}
+
+#beneficios{
+	text-align: center;	
+	/*background-color: teal;*/
+}
+
+.titulo_beneficios{
+	/*background-color: blue;*/
+	padding: 6% 0% 2% 0%;
+	width: 80%;
+	margin: auto;
+	font-size: 1.7em;
+	border-bottom: solid 1px grey;
+}
+
+.subtitulo_beneficios{
+	/*background-color: teal;*/
+	padding: 2% 0%;
+	font-size: 1.2em;
+}
+
+.beneficios_list{
+	/*background-color: orange;*/
+	width: 80%;
+	margin: auto;
+}
+
+.beneficios_list li{
+	padding: 0% 0% 10% 0%;
+}
+.numeros_grandes{
+	font-size: 8em;
+}
+
+.descripcion_beneficios{
+	font-size: 1.5em;
+}
+/*-------------------------------------------------------------
+						CONTACTO
+-------------------------------------------------------------*/
+#contacto{
+	width: 100%;	
+	background: url(../img/fondo_contacto.jpg);
+	background-size: cover;
+	padding: 40% 0% 35% 0%; 
+	color: #5F5F60;
+}
+
+#contacto_box{
+	background-color: rgba(237,236,236,0.85);
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	padding: 0% 5%;
+	border-radius: 3%;
+	font-size: 1.2em;
+}
+
+.contacto_titulo{
+	font-size: 2em;
+	padding: 8% 0%;
+}
+
+.contacto_parrafo_superior{
+	padding: 5% 0%;
+}
+
+#contacto_upper_box{
+	border-bottom: solid 1px #aaa;
+	width: 100%;
+	margin: 0%;
+	line-height: 150%;
+}
+
+.contacto_subtitulo{
+	font-size: 1.5em;
+	padding: 5% 0%;
+}
+
+.contacto_parrafo_inferior{
+	padding: 7% 0% 3% 0%;
+}
+
+.contacto_parrafo_inferior a{
+	color: #5F5F60;
+}
+
+.contacto_mail{
+	padding: 5% 0%;
+}
+.contacto_mail a{
+	color: #1D70B5;	
+}
+
+/*-------------------------------------------------------------
+						FOOTER
+-------------------------------------------------------------*/
+
+#footer{
+	clear: both;
+	background-color: #8d8c8a;
+	color:rgb(220,220,220);
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.telefono_icon{
+	display: none;
+}
+
+.facebook_icon{
+	width: 7px;
+	padding: 0px 3px;
+}
+
+.linkedin_icon{
+	width: 14px;
+	padding: 0px 3px;
+}
+
+/*
+#main{
+	height: 1500px;
+	width: 100%;
+	background-color: yellow;
+}*/
