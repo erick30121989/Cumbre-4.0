@@ -66,7 +66,7 @@
 					</a>
 				</div>
 			</div>
-			<!--
+			
 			<div id="casos_exito">
 				<h3 class="h3 h3_2">Casos de Éxito</h3>
 				<ul id="casos_list">
@@ -83,7 +83,7 @@
 					</li>
 				</ul>
 			</div>
-			-->
+			
 
 			<div id="clientes">
 				<h3 class="h3 h3_2">Clientes</h3>
